@@ -9,8 +9,19 @@ public class PopulationProjection {
 
         double changeRate = (birthRate - deathRate) + newImmigrantRate;
 
-        for(int i = 1 ; i <= 5 ; i++){
-            System.out.printf("The %d year population is %d\n" , i , population+=(int)(changeRate));
-        }
+        population += (int)(changeRate);
+        System.out.printf("The 1 year population is %d\n", population);
+
+        population += (int)(changeRate);
+        System.out.printf("The 2 year population is %d\n", population);
+
+        population += (int)(changeRate);
+        System.out.printf("The 3 year population is %d\n", population);
+
+        population += (int)(changeRate);
+        System.out.printf("The 4 year population is %d\n", population);
+
+        population += (int)(changeRate);
+        System.out.printf("The 5 year population is %d\n", population);
     }
 }
