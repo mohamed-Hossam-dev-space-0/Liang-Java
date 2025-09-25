@@ -11,6 +11,6 @@ public class LinearEquation {
 
 
 
-        System.out.printf("The value of x and y respectively is %.2f, %.2f and the result of the test is %b" , x , y ,(3.4 * x + 50.2 * y == e) ? "true" : "false");
+        System.out.printf("The value of x and y respectively is %.2f, %.2f" , x , y);
     }
 }
